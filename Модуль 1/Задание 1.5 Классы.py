@@ -6,6 +6,21 @@
 # Создай двух студентов и используй их методы.
 
 class Student:
-    def __intit__(self, name, grade):
+    def __init__(self, name, grade):
         self.name = name
         self.grade = grade
+    
+    def study(self):
+        print(f"I'm here! My name is {self.name}")
+
+    def get_grade(self):
+        return self.grade  
+
+student1 = Student("Biba", 35)
+student2 = Student("Boba", 53)
+
+print(student1.name)
+print(student2.grade)
+
+student1.get_grade()
+student2.study()

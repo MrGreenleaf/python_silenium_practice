@@ -1,0 +1,20 @@
+#main-title {
+  color: blue;
+}
+
+/* Кнопка внутри формы */
+#login-form button {
+  background-color: green;
+}
+
+/* Все элементы с классом "important" 
+(добавьте class="important" к нужным элементам в HTML) */
+.important {
+  font-weight: bold;
+  border: 2px solid red;
+}
+
+/* Первый input */
+input:first-of-type {
+  border-color: orange;
+}

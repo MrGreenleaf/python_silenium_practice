@@ -1,0 +1,29 @@
+Задание 2.5: Практика локаторов
+Открой 
+https://www.saucedemo.com
+ в браузере.
+Найди селекторы CSS и XPath для:
+Поля username
+Поля password
+Кнопки Login
+Убедись, что селекторы работают в Chrome DevTools.
+
+Кнопки Login
+CSS - #login-button
+XPath - //*[@id="login-button"]
+
+Поля username
+CSS - #user-name
+XPath - //*[@id="user-name"]
+
+Поля password
+CSS - #password
+XPath - //*[@id="password"]
+
+// Проверка CSS-селектора
+document.querySelector("#user-name")
+document.querySelector("#password")
+document.querySelector("#login-button")
+
+// Проверка, что элемент найден (вернёт элемент или null)
+// Если элемент найден - вернёт его HTML объект
